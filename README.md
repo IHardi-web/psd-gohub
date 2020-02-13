@@ -1,2 +1,2 @@
 # gohub-psd-template
- Single landing page converted from psd to html using bootstrap
+Landing page web template made with bootstrap

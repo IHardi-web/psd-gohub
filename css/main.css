@@ -47,6 +47,15 @@ body {
 .section {
   margin: 100px 0; }
 
+.section-info-mini .header-title {
+  font-size: 30px;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.section-info-mini .section-subtitle {
+  font-size: 18px;
+  padding-bottom: 3rem; }
+
 .about__block {
   -webkit-box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
   box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
@@ -77,3 +86,6 @@ body {
     color: #32325d; }
   .service-item .service-text {
     padding: 15px 0; }
+
+.safety {
+  background: url("../img/safety/safety.png") right no-repeat; }

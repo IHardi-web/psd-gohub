@@ -71,6 +71,19 @@ body {
 	margin: 100px 0;
 }
 
+.section-info-mini {
+	.header-title {
+		font-size: $font-size-medium;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.section-subtitle {
+		font-size: $font-size-text;
+		padding-bottom: 3rem;
+	}
+}
+
 .about__block {
 	box-shadow: -4px 6px 5px $color-shadow, 4px -2px 5px $color-shadow;
 	border-radius: 15px;
@@ -111,4 +124,8 @@ body {
 	.service-text {
 		padding: 15px 0;
 	}
+}
+
+.safety {
+	background: url("../img/safety/safety.png") right no-repeat;
 }

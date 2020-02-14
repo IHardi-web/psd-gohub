@@ -68,7 +68,7 @@ body {
 
 // Section
 .section {
-	margin: 100px 0;
+	padding: 100px 0;
 }
 
 .section-info-mini {
@@ -128,4 +128,8 @@ body {
 
 .safety {
 	background: url("../img/safety/safety.png") right no-repeat;
+}
+
+.move {
+	background: url("../img/move/move.png") left no-repeat;
 }

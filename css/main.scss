@@ -133,3 +133,19 @@ body {
 .move {
 	background: url("../img/move/move.png") left no-repeat;
 }
+
+.finances {
+	// background: url("../img/finances/finances.png") right no-repeat;
+	position: relative;
+
+	img {
+		position: absolute;
+		top: -20%;
+		right: 0;
+		height: 750px;
+	}
+}
+
+.list {
+	color: $color-darkblue;
+}

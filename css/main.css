@@ -22,10 +22,12 @@ body {
   .header .header__content {
     padding-top: 20vh; }
     .header .header__content .header-title {
-      font-size: 48px;
-      font-weight: 700;
-      color: #32325d;
-      padding-bottom: 2rem; }
+      font-weight: 700; }
+
+.header-title {
+  font-size: 48px;
+  color: #32325d;
+  padding-bottom: 1.5rem; }
 
 .link-item {
   color: #32325d; }
@@ -41,3 +43,21 @@ body {
 
 .text {
   padding-bottom: 30px; }
+
+.section {
+  margin: 100px 0; }
+
+.about__block {
+  -webkit-box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
+  box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
+  border-radius: 15px;
+  padding: 60px;
+  margin: 10px;
+  min-width: 540px; }
+  .about__block .about-picture {
+    padding-bottom: 20px; }
+
+.block-title {
+  color: #32325d;
+  font-size: 30px;
+  padding-bottom: 1rem; }

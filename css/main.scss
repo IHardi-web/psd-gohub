@@ -88,3 +88,27 @@ body {
 	font-size: $font-size-medium;
 	padding-bottom: 1rem;
 }
+
+.services {
+	background: url("../img/services/background.png") bottom no-repeat;
+	background-size: contain;
+}
+
+.service-item {
+	margin: 50px 0;
+	padding: 10px;
+	text-align: center;
+
+	.service-icon {
+		padding-bottom: 45px;
+	}
+
+	.service-title {
+		font-weight: 700;
+		color: $color-darkblue;
+	}
+
+	.service-text {
+		padding: 15px 0;
+	}
+}

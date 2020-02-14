@@ -1,5 +1,8 @@
 $color-purple: #845cff;
 $color-darkblue: #32325d;
+$color-blue: #8081ab;
+$color-lightblue: #f4f4fe;
+$color-lightgrey: #fafaff;
 
 $color-white: #fff;
 $color-shadow: #e9e0ff;
@@ -69,6 +72,10 @@ body {
 // Section
 .section {
 	padding: 100px 0;
+}
+
+.section--lightgrey {
+	background: $color-lightgrey;
 }
 
 .section-info-mini {
@@ -147,4 +154,34 @@ body {
 
 .list {
 	color: $color-darkblue;
+}
+
+.input__block {
+	display: flex;
+	border-radius-right: 10px;
+	box-shadow: -4px 6px 3px $color-lightblue;
+	border-radius: 10px;
+
+	input {
+		padding: 30px;
+		background: $color-white;
+		color: $color-purple;
+	}	
+
+	.input-text {
+		font-size: $font-size-subtitle;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+
+		&::placeholder {
+			color: $color-blue;
+		}
+	}
+
+	.input-btn {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight: 700;
+		font-size: 15px;
+	}
 }

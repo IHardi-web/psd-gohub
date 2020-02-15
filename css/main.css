@@ -50,6 +50,9 @@ body {
 .section--lightgrey {
   background: #fafaff; }
 
+.section--darkpurple {
+  background: #212240; }
+
 .section-info-mini .header-title {
   font-size: 30px;
   padding-top: 2rem;
@@ -60,8 +63,8 @@ body {
   padding-bottom: 3rem; }
 
 .about__block {
-  -webkit-box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
-  box-shadow: -4px 6px 5px #e9e0ff, 4px -2px 5px #e9e0ff;
+  -webkit-box-shadow: -4px 6px 5px #f4f4fe, 4px -2px 5px #f4f4fe;
+  box-shadow: -4px 6px 5px #f4f4fe, 4px -2px 5px #f4f4fe;
   border-radius: 15px;
   padding: 60px;
   margin: 10px;
@@ -100,9 +103,9 @@ body {
   position: relative; }
   .finances img {
     position: absolute;
-    top: -20%;
+    top: 0;
     right: 0;
-    height: 750px; }
+    height: 600px; }
 
 .list {
   color: #32325d; }
@@ -136,3 +139,16 @@ body {
     border-bottom-right-radius: 10px;
     font-weight: 700;
     font-size: 15px; }
+
+.footer-link {
+  font-size: 16px;
+  display: block;
+  color: #fff;
+  line-height: 2.5rem;
+  padding-right: 30px; }
+  .footer-link:last-child {
+    padding: 0; }
+
+.footer-link--dark {
+  display: inline-block;
+  color: #555377; }

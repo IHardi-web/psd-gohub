@@ -78,6 +78,10 @@ body {
 	background: $color-lightgrey;
 }
 
+.section--darkpurple {
+	background: #212240;
+}
+
 .section-info-mini {
 	.header-title {
 		font-size: $font-size-medium;
@@ -92,7 +96,7 @@ body {
 }
 
 .about__block {
-	box-shadow: -4px 6px 5px $color-shadow, 4px -2px 5px $color-shadow;
+	box-shadow: -4px 6px 5px $color-lightblue, 4px -2px 5px $color-lightblue;
 	border-radius: 15px;
 	padding: 60px;
 	margin: 10px;
@@ -146,9 +150,9 @@ body {
 
 	img {
 		position: absolute;
-		top: -20%;
+		top: 0;
 		right: 0;
-		height: 750px;
+		height: 600px;
 	}
 }
 
@@ -184,4 +188,22 @@ body {
 		font-weight: 700;
 		font-size: 15px;
 	}
+}
+
+
+.footer-link {
+	font-size: 16px;
+	display: block;
+	color: $color-white;
+	line-height: 2.5rem;
+	padding-right: 30px;
+
+	&:last-child {
+		padding: 0;
+	}
+}
+
+.footer-link--dark {
+	display: inline-block;
+	color: #555377;
 }

@@ -17,15 +17,12 @@ $font-size-text: 18px;
 body {
 	color: #525f7f;
 	font-size: $font-size-text;
+	background: url("../img/header/background.png") top right no-repeat;
+	background-size: cover;
 }
 
 // Header
 .header {
-	background: url("../img/header/background.png") right no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-
 	// Navbar
 	.navbar {
 		display: flex;
@@ -36,7 +33,7 @@ body {
 	}
 
 	.header__content {
-		padding-top: 20vh;
+		margin-top: 200px;
 
 		.header-title {
 			font-weight: 700;
@@ -52,6 +49,18 @@ body {
 
 .link-item {
 	color: $color-darkblue;
+}
+
+@media screen and (max-width: 540px){
+	.link-item {
+		text-align: center;
+		display: block;
+		padding: 15px 25px;
+	}
+
+	.navbar__links {
+		margin: auto;
+	}
 }
 
 .highlighted-btn {
@@ -97,10 +106,11 @@ body {
 
 .about__block {
 	box-shadow: -4px 6px 5px $color-lightblue, 4px -2px 5px $color-lightblue;
+	background: $color-white;
 	border-radius: 15px;
 	padding: 60px;
 	margin: 10px;
-	min-width: 540px;
+	// min-width: 540px;
 
 	.about-picture {
 		padding-bottom: 20px;

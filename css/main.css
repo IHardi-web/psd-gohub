@@ -154,3 +154,6 @@ body {
 .footer-link--dark {
   display: inline-block;
   color: #555377; }
+
+.footer__copyright {
+  margin-top: 100px; }

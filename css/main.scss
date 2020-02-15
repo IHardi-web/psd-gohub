@@ -158,6 +158,10 @@ body {
 
 .list {
 	color: $color-darkblue;
+
+	.header-title {
+		padding-bottom: 3rem;
+	}
 }
 
 .input__block {

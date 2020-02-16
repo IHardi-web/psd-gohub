@@ -1,0 +1,7 @@
+@media screen and (max-width: 576px) {
+  .navbar__links {
+    margin: auto; }
+    .navbar__links .link-item {
+      text-align: center;
+      display: block;
+      padding: 15px 25px; } }

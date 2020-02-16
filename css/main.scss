@@ -13,7 +13,6 @@ $font-size-subtitle: 23px;
 $font-size-text: 18px;
 
 
-
 body {
 	color: #525f7f;
 	font-size: $font-size-text;
@@ -152,14 +151,7 @@ body {
 }
 
 .finances {
-	position: relative;
-
-	img {
-		position: absolute;
-		top: 0;
-		right: 0;
-		height: 600px;
-	}
+	background: url("../img/finances/finances.png") top right no-repeat;
 }
 
 .list {
@@ -172,9 +164,6 @@ body {
 
 .input__block {
 	display: flex;
-	border-radius-right: 10px;
-	box-shadow: -4px 6px 3px $color-lightblue;
-	border-radius: 10px;
 
 	input {
 		padding: 30px;
@@ -183,6 +172,7 @@ body {
 	}	
 
 	.input-text {
+		box-shadow: -4px 6px 3px $color-lightblue;
 		font-size: $font-size-subtitle;
 		border-top-left-radius: 10px;
 		border-bottom-left-radius: 10px;
@@ -193,6 +183,9 @@ body {
 	}
 
 	.input-btn {
+		position: relative;
+		left: -15px;
+		box-shadow: 4px 6px 3px $color-lightblue;
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		font-weight: 700;
@@ -200,17 +193,11 @@ body {
 	}
 }
 
-
 .footer-link {
 	font-size: 16px;
 	display: block;
 	color: $color-white;
 	line-height: 2.5rem;
-	padding-right: 30px;
-
-	&:last-child {
-		padding: 0;
-	}
 }
 
 .footer-link--dark {

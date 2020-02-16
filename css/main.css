@@ -106,12 +106,7 @@ body {
   background: url("../img/move/move.png") left no-repeat; }
 
 .finances {
-  position: relative; }
-  .finances img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 600px; }
+  background: url("../img/finances/finances.png") top right no-repeat; }
 
 .list {
   color: #32325d; }
@@ -121,16 +116,14 @@ body {
 .input__block {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  border-radius-right: 10px;
-  -webkit-box-shadow: -4px 6px 3px #f4f4fe;
-  box-shadow: -4px 6px 3px #f4f4fe;
-  border-radius: 10px; }
+  display: flex; }
   .input__block input {
     padding: 30px;
     background: #fff;
     color: #845cff; }
   .input__block .input-text {
+    -webkit-box-shadow: -4px 6px 3px #f4f4fe;
+    box-shadow: -4px 6px 3px #f4f4fe;
     font-size: 23px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; }
@@ -143,6 +136,10 @@ body {
     .input__block .input-text::placeholder {
       color: #8081ab; }
   .input__block .input-btn {
+    position: relative;
+    left: -15px;
+    -webkit-box-shadow: 4px 6px 3px #f4f4fe;
+    box-shadow: 4px 6px 3px #f4f4fe;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-weight: 700;
@@ -152,10 +149,7 @@ body {
   font-size: 16px;
   display: block;
   color: #fff;
-  line-height: 2.5rem;
-  padding-right: 30px; }
-  .footer-link:last-child {
-    padding: 0; }
+  line-height: 2.5rem; }
 
 .footer-link--dark {
   display: inline-block;

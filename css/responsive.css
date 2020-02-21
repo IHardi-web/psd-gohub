@@ -2,21 +2,22 @@
   .input__block input {
     margin-top: 50px;
     width: 100%; }
+
   .footer__info-block {
     margin: 50px 0; } }
-
 @media screen and (max-width: 768px) {
   .footer__info-block {
     margin: 15px 0;
     text-align: center; }
+
   .footer-link {
     margin: auto; }
     .footer-link:last-child {
       padding: 0;
       margin: 0; }
+
   .footer__copyright {
     text-align: center; } }
-
 @media screen and (max-width: 576px) {
   .navbar__links {
     margin: auto; }
@@ -24,3 +25,5 @@
       text-align: center;
       display: block;
       padding: 15px 25px; } }
+
+/*# sourceMappingURL=responsive.css.map */
